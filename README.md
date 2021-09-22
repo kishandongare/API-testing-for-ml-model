@@ -32,5 +32,11 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 --form 'Gpu brand="Intel"' \
 --form 'os="Mac"'
 
+<10>then send
+<11> then we will received 
+{
+    "price": 72265
+}
+<12>we get the price fron created api in JSON formate
 
 
