@@ -1,1 +1,1 @@
-# API-testing-for-ml-model
+# creating API for ml model and testing on postman
