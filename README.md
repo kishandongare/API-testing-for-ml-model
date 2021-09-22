@@ -1,6 +1,6 @@
 # creating API for ml model and testing on postman
 
-<1> create project on pycharm paste app.py and pipe.pkl in the project
+<1> create project on pycharm paste all except .ipynb and csv
 
 <2> and run app.py file it generate url and copy that url
 
@@ -45,22 +45,12 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 
 # Heroku Deploy
 
-<1>first create this following file in your project
-      
-       1>procfile
-         past-> web: gunicorn app:app
-       
-       2>requirement.txt
-         flask 
-         numpy
-         sklearn
-         gunicorn
-<2>first make account in Heroku
+<1>first make account in Heroku
 
-<3>click on new app and remane app
+<2>click on new app and remane app
 
-<4>download Heroku cli and install
+<3>download Heroku cli and install
 
-<5>Heroku specified command,run that command in cmd or terminal,while deploying also check correct project directory
+<4>Heroku specified command,run that command in cmd or terminal,while deploying also check correct project directory
 
-<6>it generate URL you can use that url in postman for testing
+<5>it generate URL you can use that url in postman for testing
