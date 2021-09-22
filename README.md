@@ -18,5 +18,19 @@
 
 <9>code how i am give key and value
 
+curl --location --request POST 'http://127.0.0.1:5000/predict' \
+--form 'Company="Apple"' \
+--form 'TypeName="Ultrabook"' \
+--form 'Ram="8"' \
+--form 'Weight="1.37"' \
+--form 'Touchscreen="0"' \
+--form 'Ips="1"' \
+--form 'ppi="226.983005"' \
+--form 'Cpu brand="Intel Core i5"' \
+--form 'HDD="0"' \
+--form 'SSD="128"' \
+--form 'Gpu brand="Intel"' \
+--form 'os="Mac"'
+
 
 
