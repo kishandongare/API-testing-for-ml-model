@@ -46,6 +46,7 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 # Heroku Deploy
 
 <1>first create this following file in your project
+      
        1>procfile
          past-> web: gunicorn app:app
        
