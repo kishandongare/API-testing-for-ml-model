@@ -53,3 +53,10 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
          numpy
          sklearn
          gunicorn
+<2>first make account in Heroku
+
+<3>click on new app and remane app
+
+<4>download Heroku cli and install
+
+<5>Heroku specified command,run that command in cmd or terminal,while deploying also check correct project directory
