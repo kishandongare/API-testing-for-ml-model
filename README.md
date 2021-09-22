@@ -62,3 +62,5 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 <4>download Heroku cli and install
 
 <5>Heroku specified command,run that command in cmd or terminal,while deploying also check correct project directory
+
+<6>it generate URL you can use that url in postman for testing
