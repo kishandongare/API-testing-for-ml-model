@@ -42,3 +42,14 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 ![image](https://user-images.githubusercontent.com/66677660/134398624-fe669fac-ad2c-48f6-bd40-972fab563420.png)
 
 <13> you can deploy that project in Heroku for commercial use of API
+
+# Heroku Deploy
+
+<1>first create this following file in your project
+       1>procfile
+         past-> web: gunicorn app:app
+       2>requirement.txt
+         flask 
+         numpy
+         sklearn
+         gunicorn
