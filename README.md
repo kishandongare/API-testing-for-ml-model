@@ -39,4 +39,5 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 }
 <12>we get the price fron created api in JSON formate
 
+![image](https://user-images.githubusercontent.com/66677660/134398624-fe669fac-ad2c-48f6-bd40-972fab563420.png)
 
