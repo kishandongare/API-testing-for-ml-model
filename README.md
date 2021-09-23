@@ -54,3 +54,17 @@ curl --location --request POST 'http://127.0.0.1:5000/predict' \
 <4>Heroku specified command,run that command in cmd or terminal,while deploying also check correct project directory
 
 <5>it generate URL you can use that url in postman for testing
+
+![image](https://user-images.githubusercontent.com/66677660/134461083-b845be00-a182-41a9-97ba-2421ceddc3fc.png)
+
+<6>it generate this URL-> https://api-testing-1.herokuapp.com/
+
+<7>Postman Testing
+
+![image](https://user-images.githubusercontent.com/66677660/134461345-d82d4c06-a480-4d0c-804a-367282f915ba.png)
+
+<8> Result
+
+{
+    "price": 72265
+}
