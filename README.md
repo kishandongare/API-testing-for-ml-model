@@ -1,3 +1,8 @@
+>> if you want to deploy in heroku and which library you uses in your project you can find this using command 
+
+>> pip freeze > requirements.txt
+
+
 # creating API for ml model and testing on postman
 
 <1> create project on pycharm paste all except .ipynb and csv
